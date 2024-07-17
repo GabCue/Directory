@@ -1,0 +1,54 @@
+header {
+    background-color: rgb(255, 207, 148);
+}
+
+.buscador {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.fomulario {
+    display: flex;
+    justify-content: center; 
+    background-color: rgb(131, 119, 105);
+    padding: 20px; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(231, 238, 244);
+}
+
+#user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+form {
+    display: flex; 
+    align-items: center; 
+    background-color: #fff; 
+    padding: 10px; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    margin: 5px;
+    padding: 8px;
+    width: 150px; 
+}
+
+form button {
+    margin: 5px;
+    padding: 8px;
+}
